@@ -1,0 +1,10 @@
+2017-11-15T09:10:27+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2017-11-15T10:21:18+00:00 CRITICAL Call to undefined method eightstore_lite_About_Theme::eightstore_lite_call_plugin_api()
+
+2017-11-15T11:50:19+00:00 CRITICAL Call to undefined method eightstore_lite_About_Theme::eightstore_lite_call_plugin_api()
+
+2017-11-15T11:50:37+00:00 CRITICAL Call to undefined method eightstore_lite_About_Theme::eightstore_lite_call_plugin_api()
+
+2017-11-15T12:15:44+00:00 CRITICAL Call to undefined method eightstore_lite_About_Theme::eightstore_lite_call_plugin_api()
+
