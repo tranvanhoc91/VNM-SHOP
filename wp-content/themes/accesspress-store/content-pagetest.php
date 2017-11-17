@@ -34,10 +34,22 @@
             ));
             ?>
             
-            
+           
             
             
         </div>
     </div><!-- .entry-content -->
 
+<?php if (is_active_sidebar('promo-widget-3')): ?>
+    <section id="promo-section3">
+        <div class="ak-container">
+            <div class="promo-wrap3">
+                <div class="promo-product2">
+                    <?php dynamic_sidebar('promo-widget-3'); ?>
+                </div>
+            </div>
+        </div>
+    </section>
+<?php endif; ?>
+ 	
 </article><!-- #post-## -->

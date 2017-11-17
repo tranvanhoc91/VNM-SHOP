@@ -52,7 +52,7 @@ if($breadcrumb == '1') :
                         
                      //get_template_part('content', 'slidebartest'); 
                      get_template_part('content', 'pagetest'); 
-                        
+                    // get_template_part('template', 'home'); 
                      ?>
                      
                     <?php
