@@ -13,6 +13,11 @@ do_action('accesspress_slickslider');
         <div class="ak-container">
             <div class="promo-wrap1">
                 <div class="promo-product1 clearfix">
+
+                
+
+
+                
                     <?php dynamic_sidebar('promo-widget-1'); ?>
                 </div>
             </div>

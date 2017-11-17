@@ -19,29 +19,36 @@
                 <div class="top-footer-block">
                    <?php dynamic_sidebar('footer-1') ?>
                </div>
+                   <?php endif; ?>
+        
+                   <?php if( is_active_sidebar('footer-2') ): ?>
+                    <div class="top-footer-block">
+                       <?php dynamic_sidebar('footer-2') ?>
+                   </div>
+               <?php endif; ?>
+        
+               <?php if( is_active_sidebar('footer-3') ): ?>
+                <div class="top-footer-block">
+                   <?php dynamic_sidebar('footer-3') ?>
+               </div>
            <?php endif; ?>
-
-           <?php if( is_active_sidebar('footer-2') ): ?>
+        
+           <?php if( is_active_sidebar('footer-4') ): ?>
             <div class="top-footer-block">
-               <?php dynamic_sidebar('footer-2') ?>
+               <?php dynamic_sidebar('footer-4') ?>
            </div>
-       <?php endif; ?>
-
-       <?php if( is_active_sidebar('footer-3') ): ?>
-        <div class="top-footer-block">
-           <?php dynamic_sidebar('footer-3') ?>
-       </div>
-   <?php endif; ?>
-
-   <?php if( is_active_sidebar('footer-4') ): ?>
-    <div class="top-footer-block">
-       <?php dynamic_sidebar('footer-4') ?>
-   </div>
-<?php endif; ?>
-</div>
+        <?php endif; ?>
+        </div>
+        
+        
+        
 </div>
 </div> <!-- top footer end -->
 <?php endif; ?>
+
+        
+
+
 <div class="footer-bottom">
     <div class="ak-container">
         <div class="seal-logo-wrap">
@@ -92,7 +99,8 @@
             else : 
               printf(__('&copy; %1$s %2$s', 'accesspress-store'), get_the_time("Y"), get_bloginfo('name'));
             endif;
-          ?> - <?php printf( __( 'WordPress Theme : %1$s by %2$s', 'accesspress-store' ), 'AccessPress Store', '<a href="'.esc_url('https://accesspressthemes.com/wordpress-themes/accesspress-store/' ).'">AccessPress Themes</a>'  );  ?>
+          ?> 
+          
         </div><!-- .site-info -->
     </div>
 </div>

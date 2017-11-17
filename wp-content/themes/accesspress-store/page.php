@@ -46,9 +46,15 @@ if($breadcrumb == '1') :
             <div id="primary" class="content-area">
 
                 <?php while ( have_posts() ) : the_post(); ?>
-
-                    <?php get_template_part('content', 'page'); ?>
-
+                
+                     <?php 
+                        //get_template_part('content', 'page'); 
+                        
+                     //get_template_part('content', 'slidebartest'); 
+                     get_template_part('content', 'pagetest'); 
+                        
+                     ?>
+                     
                     <?php
                     // If comments are open or we have at least one comment, load up the comment template
                     if (comments_open() || get_comments_number()) :
@@ -73,6 +79,13 @@ if($breadcrumb == '1') :
                     get_sidebar('right');
                 endif;
             ?>
+            
+            
+            
+    	<?php 
+    	   get_template_part('content', 'test-section1'); 
+    	?>
+            
     </main>
 </div>
 <?php get_footer();
