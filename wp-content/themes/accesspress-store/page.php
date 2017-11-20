@@ -51,8 +51,8 @@ if($breadcrumb == '1') :
                         //get_template_part('content', 'page'); 
                         
                      //get_template_part('content', 'slidebartest'); 
-                     get_template_part('content', 'pagetest'); 
-                    // get_template_part('template', 'home'); 
+                     //get_template_part('content', 'pagetest'); 
+                     get_template_part('template', 'home'); 
                      ?>
                      
                     <?php
@@ -79,13 +79,11 @@ if($breadcrumb == '1') :
                     get_sidebar('right');
                 endif;
             ?>
-            
-            
-            
-    	<?php 
-    	   get_template_part('content', 'test-section1'); 
-    	?>
-            
     </main>
 </div>
-<?php get_footer();
+
+
+<?php 
+get_footer();
+
+?>

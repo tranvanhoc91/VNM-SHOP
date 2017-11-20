@@ -109,7 +109,16 @@ function accesspress_store_wp_admin_section() {
 }
 add_action( 'admin_enqueue_scripts', 'accesspress_store_wp_admin_section' );
 
+
+
+
 /**
  * Load Require init file.
 */
 require $accesspress_store_file_directory_init_file_path = trailingslashit( get_template_directory() ).'inc/init.php';
+
+
+
+
+
+
