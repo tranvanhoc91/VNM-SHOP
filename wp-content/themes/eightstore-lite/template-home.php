@@ -267,8 +267,7 @@ get_header(); ?>
 		</div>
 	</section>
 	<?php
-
-		//promotional section 4
+	//promotional section 4
 	if(is_active_sidebar('widget-promo-4')){
 		?>
 		<section id="section-promo4">
@@ -278,7 +277,6 @@ get_header(); ?>
 		</section>
 		<?php
 	}
-
 	?>
 
 

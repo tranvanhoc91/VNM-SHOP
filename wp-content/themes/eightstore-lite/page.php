@@ -29,7 +29,12 @@ if (is_page('cart') || is_page('checkout')) {
 			<div id="primary" class="content-area">
 				<?php while ( have_posts() ) : the_post(); ?>
 
-					<?php get_template_part( 'template-parts/content', 'page' ); ?>
+					<?php 
+					
+					   get_template_part( 'template-parts/content', 'mypage' ); 
+					   //get_template_part( 'template', 'home' ); 
+					   
+					 ?>
 
 					<?php
 					// If comments are open or we have at least one comment, load up the comment template.
@@ -56,8 +61,13 @@ if (is_page('cart') || is_page('checkout')) {
 
 	</main><!-- #main -->
 </div>
+
+
+
+
 <?php
-			//promotional section 3 if enabled for inner pages
+
+//promotional section 3 if enabled for inner pages
 if(get_theme_mod('eightstore_inner_cta')=="1"){
 			//promotional section 3
 	if(is_active_sidebar('widget-promo-3')){
@@ -71,4 +81,47 @@ if(get_theme_mod('eightstore_inner_cta')=="1"){
 	}
 }
 ?>
+
+<?php
+//promotional section 4
+if(is_active_sidebar('widget-promo-4')){
+?>
+	<section id="section-promo4">
+		<div class="store-wrapper">
+			<?php dynamic_sidebar('widget-promo-4'); ?>
+		</div>
+	</section>
+	<?php
+}
+?>
+
+
+<?php
+//promotional section 4
+if(is_active_sidebar('widget-promo-4')){
+?>
+	<section id="section-promo2">
+		<div class="store-wrapper">
+			<?php dynamic_sidebar('section-promo2'); ?>
+		</div>
+	</section>
+	<?php
+}
+?>
+
+
+<?php
+//promotional section 4
+if(is_active_sidebar('widget-promo-2')){
+?>
+	<section id="section-product2">
+		<div class="store-wrapper">
+			<?php dynamic_sidebar('widget-promo-2'); ?>
+		</div>
+	</section>
+	<?php
+}
+?>
+
+
 <?php get_footer(); ?>

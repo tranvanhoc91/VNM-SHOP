@@ -29,13 +29,7 @@
                 <?php endif; ?>                   
             
         </div>
-        
-        
     </div>
-    
-    
-    
-    
 
     <div class="top-header clearfix">
         <div class="ak-container clearfix">

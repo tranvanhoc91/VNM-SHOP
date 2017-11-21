@@ -38,8 +38,6 @@
             
             
         </div>
-        
-        
     </div><!-- .entry-content -->
 
 <?php if (is_active_sidebar('promo-widget-3')): ?>
@@ -55,6 +53,3 @@
 <?php endif; ?>
  	
 </article><!-- #post-## -->
-
-
-
