@@ -777,7 +777,7 @@ div#n2-ss-4 .n2-ss-slider-1 {
   padding-right: 0px;
   padding-bottom: 0px;
   padding-left: 0px;
-  height: 500px;
+  height: 400px;
   border-style: solid;
   border-width: 0px;
   border-color: #3E3E3E;
@@ -844,7 +844,7 @@ div#n2-ss-4 .n2-ss-slide {
 div#n2-ss-4 .n2-ss-layers-container {
   position: relative;
   width: 800px;
-  height: 500px;
+  height: 400px;
 }
 div#n2-ss-4 .n2-ss-parallax-clip > .n2-ss-layers-container {
   position: absolute;
@@ -946,10 +946,6 @@ div#n2-ss-4 .nextend-autoplay.n2-autoplay-paused .nextend-autoplay-play {
 }
 div#n2-ss-4 .nextend-autoplay.n2-autoplay-paused .nextend-autoplay-pause {
   display: none;
-}
-div#n2-ss-4 .nextend-bar-horizontal div * {
-  display: inline;
-  vertical-align: middle;
 }
 div#n2-ss-4 .n2-ss-control-bullet {
   visibility: hidden;

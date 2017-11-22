@@ -777,7 +777,7 @@ div#n2-ss-4 .n2-ss-slider-1 {
   padding-right: 0px;
   padding-bottom: 0px;
   padding-left: 0px;
-  height: 500px;
+  height: 400px;
   border-style: solid;
   border-width: 0px;
   border-color: #3E3E3E;
@@ -844,7 +844,7 @@ div#n2-ss-4 .n2-ss-slide {
 div#n2-ss-4 .n2-ss-layers-container {
   position: relative;
   width: 800px;
-  height: 500px;
+  height: 400px;
 }
 div#n2-ss-4 .n2-ss-parallax-clip > .n2-ss-layers-container {
   position: absolute;
@@ -947,10 +947,6 @@ div#n2-ss-4 .nextend-autoplay.n2-autoplay-paused .nextend-autoplay-play {
 div#n2-ss-4 .nextend-autoplay.n2-autoplay-paused .nextend-autoplay-pause {
   display: none;
 }
-div#n2-ss-4 .nextend-bar-horizontal div * {
-  display: inline;
-  vertical-align: middle;
-}
 div#n2-ss-4 .n2-ss-control-bullet {
   visibility: hidden;
   text-align: center;
@@ -986,12 +982,6 @@ div#n2-ss-4 div.n2-bullet-thumbnail-container {
 
 div#n2-ss-4 .n2-style-5b9750e13f5698a684e455d43e78c7b0-heading{background: #000000;background: RGBA(0,0,0,0.67);opacity:1;padding:10px 10px 10px 10px ;box-shadow: none;border-width: 0px;border-style: solid;border-color: #000000; border-color: RGBA(0,0,0,1);border-radius:3px;}
 div#n2-ss-4 .n2-style-5b9750e13f5698a684e455d43e78c7b0-heading:Hover, div#n2-ss-4 .n2-style-5b9750e13f5698a684e455d43e78c7b0-heading:ACTIVE, div#n2-ss-4 .n2-style-5b9750e13f5698a684e455d43e78c7b0-heading:FOCUS{background: #000000;background: RGBA(0,0,0,0.67);}
-
-div#n2-ss-4 .n2-style-9248457677fa663b012687e7f4f4bd21-simple{background: #000000;background: RGBA(0,0,0,0.29);opacity:1;padding:20px 20px 20px 20px ;box-shadow: none;border-width: 0px;border-style: solid;border-color: #ced3d5; border-color: RGBA(206,211,213,1);border-radius:0px;}
-
-div#n2-ss-4 .n2-font-e3c41506343992221ec72bc901c2c8fd-simple{font-family: 'Montserrat';color: #f6db6d;color: RGBA(246,219,109,0.59);font-size:87.5%;text-shadow: none;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;letter-spacing: normal;word-spacing: normal;text-transform: none;vertical-align: middle;}
-
-div#n2-ss-4 .n2-font-29b3026daa294fcfb1e5fbec55139ac3-simple{font-family: 'Montserrat';color: #ffffff;font-size:87.5%;text-shadow: none;line-height: 1.3;font-weight: normal;font-style: italic;text-decoration: none;text-align: left;letter-spacing: normal;word-spacing: normal;text-transform: none;vertical-align: middle;}
 
 div#n2-ss-4 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot{background: #000000;background: RGBA(0,0,0,0.67);opacity:1;padding:5px 5px 5px 5px ;box-shadow: none;border-width: 0px;border-style: solid;border-color: #000000; border-color: RGBA(0,0,0,1);border-radius:50px;margin: 4px;}
 div#n2-ss-4 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot.n2-active, div#n2-ss-4 .n2-style-2a0a200d6a6e1fade27fb9c90af83812-dot:HOVER{background: #00c1c4;}
